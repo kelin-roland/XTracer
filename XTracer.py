@@ -306,7 +306,7 @@ def hook_list():
         'android.support.v4.app.ActivityCompat/requestPermissions',
         'androidx.core.app.ActivityCompat/requestPermissions'
     ]
-    with open("source/hook_list.csv") as f:
+    with open("source/hook_list_479.csv") as f:
         hookList = [row.split(',')[0] for row in f]
     for item in extend_list:
         hookList.append(item)
