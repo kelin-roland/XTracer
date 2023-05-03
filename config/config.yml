@@ -1,0 +1,3 @@
+baseConf:
+  simulator_path: C:/Program Files/BlueStacks_nxt/HD-Player.exe
+  simulator_ip: 127.0.0.1:5555
